@@ -6,7 +6,7 @@
     'author': 'Sude Atansay',
     'license': 'LGPL-3',
     'category': 'Library',
-    'depends': ['base','mail'],
+    'depends': ['base', 'mail'],
     'application': True,
     'data': [
         'security/ir.model.access.csv',
