@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="library_book_demo_1" model="library.book">
+        <field name="name">Akıl ve Tutku</field>
+        <field name="author">Jane Austen</field>
+        <field name="category">roman</field>
+        <field name="is_available">True</field>
+        <field name="description">Jane Austen'ın ilk romanı Akıl ve Tutku yayımlanmasının hemen ardından büyük bir başarı yakalar.</field>
+        <field name="publication_date">1811-01-01</field>
+        <field name="pages">392</field>
+    </record>
+
+    <record id="library_book_demo_2" model="library.book">
+        <field name="name">Kozmos</field>
+        <field name="author">Carl Sagan</field>
+        <field name="category">bilim</field>
+        <field name="is_available">True</field>
+        <field name="description">Evrenin sırlarını keşfeden bilim klasiği.</field>
+        <field name="publication_date">1980-01-01</field>
+        <field name="pages">384</field>
+    </record>
+
+    <record id="library_book_demo_3" model="library.book">
+        <field name="name">Nutuk</field>
+        <field name="author">Mustafa Kemal Atatürk</field>
+        <field name="category">tarih</field>
+        <field name="is_available">False</field>
+        <field name="description">Türkiye Cumhuriyeti'nin kuruluş sürecini anlatan tarihi eser.</field>
+        <field name="publication_date">1927-01-01</field>
+        <field name="pages">1096</field>
+    </record>
+</odoo>
