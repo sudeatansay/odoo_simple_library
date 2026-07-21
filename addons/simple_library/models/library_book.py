@@ -19,5 +19,3 @@ class LibraryBook(models.Model):
     is_available = fields.Boolean(string='Müsait', default=True)
     description = fields.Text(string='Açıklama')
     publication_date = fields.Date(string='Yayın Tarihi')
-    pages = fields.Integer(string='Sayfa Sayısı')
-    
